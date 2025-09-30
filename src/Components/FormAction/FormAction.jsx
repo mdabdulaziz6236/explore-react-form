@@ -13,6 +13,7 @@ const FormAction = () => {
                 <input type="email" name="email" placeholder='Email' id="" /><br />
                 <input type="submit" value="submit" />
             </form>
+            <br />
         </div>
     );
 };

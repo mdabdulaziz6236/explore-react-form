@@ -36,12 +36,13 @@ const ControlledField = () => {
     return (
         <div>
                 <form onSubmit={handleSubmit}>
-                    <input defaultValue={name} type="text" name="name" placeholder='name' onChange={handleNameChange} id="" /><br />
+                    <input defaultValue={name} type="text" name="name" placeholder='Name' onChange={handleNameChange} id="3" /><br />
                     <input type="email" defaultValue={email} onChange={handleEmailChange} name="email" id="1"  placeholder='Email' required /><br />
                     <input type="password" onChange={handlePasswordOnChange} defaultValue={password} name="password" id="2" placeholder='Password' required /><br />
                     <input type="submit" value="Submit" />
                 </form>
                 <p style={{color: 'red'}}><small>{error}</small></p>
+                <br />
         </div>
     );
 };
